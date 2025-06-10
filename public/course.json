@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "course_code": "JEE",
+      "course_name": "Juegos de escape en educación",
+      "start_date": "Inicia el 6 de agosto"
+    },
+    {
+      "course_code": "RIA-A",
+      "course_name": "Creación de recursos digitales con ia",
+      "start_date": "Inicia el 20 de agosto. "
+    },
+    {
+      "course_code": "EIA",
+      "course_name": "Ia y evaluación educativa",
+      "start_date": "Inicia el 9 de septiembre"
+    },
+    {
+      "course_code": "INF",
+      "course_name": "Infancias y pantallas",
+      "start_date": "Inicia el 27 de septiembre"
+    },
+    {
+      "course_code": "MAT",
+      "course_name": "Diseño de materiales didácticos digitales",
+      "start_date": "Inicia el 7 de octubre"
+    },
+    {
+      "course_code": "RIA-O",
+      "course_name": "Creación de recursos educativos con ia (nueva edición)",
+      "start_date": "Inicia el 15 de octubre"
+    },
+    {
+      "course_code": "EXP",
+      "course_name": "Experiencias sincrónicas de aprendizaje",
+      "start_date": "Inicia el 18 de octubre"
+    },
+    {
+      "course_code": "LIA-J",
+      "course_name": "Lab de ia y educación (comisión jueves)",
+      "start_date": "Inicia el 6 de noviembre"
+    },
+    {
+      "course_code": "LIA-S",
+      "course_name": "Lab de ia y educación (comisión sábados)",
+      "start_date": "Inicia el 8 de noviembre"
+    },
+    {
+      "course_code": "JEI",
+      "course_name": "Juegos de escape en educación en inglés?",
+      "start_date": "En producción, confirmar más adelante"
+    }
+  ]
+}
