@@ -231,6 +231,7 @@ async function fetchData() {
 
     console.log('Datos de cursos cargados:', data);
 
+    
     return data;
 
   } catch (error) {
