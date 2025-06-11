@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     //Data de ejemplo para los cursos
+    /*
     const data = {
         courses: [
             {
@@ -49,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ]
     };
-
-    //const data = createCheckboxes();
+    */
+    const data = fetchData();
 
     const modalConfirm = document.querySelector('#modal-confirm');
     if (!modalConfirm) return;
@@ -118,7 +119,7 @@ function createCheckboxesFromData(data, modalBody, ide) {
   const checkboxContainer = document.createElement('div');
   checkboxContainer.className = 'course-checkbox';
 
-  data.courses.forEach(course => {
+  data.data.forEach(course => {
     const formCheck = document.createElement('div');
     formCheck.className = 'form-check d-flex mb-3';
 
@@ -219,14 +220,17 @@ function onChangeCallback(ide, modalBody) {
 
 
 
-async function createCheckboxes() {
+async function fetchData() {
   try {
-    const response = await fetch('/course.json');
+    const response = await fetch('https://redaccion.pent.org.ar/sites/default/files/courses.json');
     if (!response.ok) {
       throw new Error('Error al cargar course.json');
     }
 
     const data = await response.json();
+
+    console.log('Datos de cursos cargados:', data);
+
     return data;
 
   } catch (error) {
