@@ -226,12 +226,11 @@ async function fetchData() {
     if (!response.ok) {
       throw new Error('Error al cargar course.json');
     }
-
     const data = await response.json();
 
     console.log('Datos de cursos cargados:', data);
 
-    
+
     return data;
 
   } catch (error) {
