@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
             "course_code": "RIA-A",
-            "course_name": "Creación de recursos digitales con ia",
+            "course_name": "Creación de recursos digitales con IA",
             "start_date": "Inicia el 20 de agosto."
             },
             {
             "course_code": "EIA",
-            "course_name": "Ia y evaluación educativa",
+            "course_name": "IA y evaluación educativa",
             "start_date": "Inicia el 9 de septiembre."
             },
             {
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
             "course_code": "RIA-O",
-            "course_name": "Creación de recursos educativos con ia (nueva edición)",
+            "course_name": "Creación de recursos educativos con IA",
             "start_date": "Inicia el 15 de octubre."
             },
             {
@@ -39,18 +39,13 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
             "course_code": "LIA-J",
-            "course_name": "Lab de ia y educación (comisión jueves)",
+            "course_name": "Lab de IA y educación (comisión jueves)",
             "start_date": "Inicia el 6 de noviembre."
             },
             {
             "course_code": "LIA-S",
-            "course_name": "Lab de ia y educación (comisión sábados)",
+            "course_name": "Lab de IA y educación (comisión sábados)",
             "start_date": "Inicia el 8 de noviembre."
-            },
-            {
-            "course_code": "JEI",
-            "course_name": "Juegos de escape en educación en inglés?",
-            "start_date": "En producción, confirmar más adelante."
             }
         ]
     };
@@ -113,7 +108,7 @@ function formDescription(ide) {
   const cant = ide === '1632' ? '2' : ide === '1642' ? '3' : 'al menos 1';
 
   const descriptionText = document.createElement('p');
-  descriptionText.innerHTML = `Por favor, seleccioná las propuestas a las que te inscribirás.<br/>Deben seleccionar ${cant}.`;
+  descriptionText.innerHTML = `Por favor, indicá que propuestas cursarás.<br/>Debés elegir ${cant}.`;
 
   formDescription.appendChild(descriptionText);
   return formDescription;
