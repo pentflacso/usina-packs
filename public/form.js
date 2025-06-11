@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     //Data de ejemplo para los cursos
-    /*
+    
     const data = {
         courses: [
             {
@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         ]
     };
-    */
-    const data = fetchData();
+    
+    //const data = fetchData();
 
     const modalConfirm = document.querySelector('#modal-confirm');
     if (!modalConfirm) return;
@@ -119,7 +119,7 @@ function createCheckboxesFromData(data, modalBody, ide) {
   const checkboxContainer = document.createElement('div');
   checkboxContainer.className = 'course-checkbox';
 
-  data.data.forEach(course => {
+  data.courses.forEach(course => {
     const formCheck = document.createElement('div');
     formCheck.className = 'form-check d-flex mb-3';
 
