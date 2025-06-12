@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    //Data de ejemplo para los cursos
+    //Nombre de los cursos
     
     const data = {
         courses: [
