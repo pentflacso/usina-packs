@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = {
         courses: [
             {
+            "course_code": "TRA",
+            "course_name": "Narrativas transmedia",
+            "start_date": "Inicia el 21 de junio."
+            },{
             "course_code": "JEE",
             "course_name": "Juegos de escape en educación",
             "start_date": "Inicia el 6 de agosto."
