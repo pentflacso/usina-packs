@@ -106,7 +106,7 @@ function formDescription(ide) {
   formDescription.className = 'form-description';
 
   //Segun id de formulario, se define la cantidad de cursos a seleccionar
-  const cant = ide === '1632' ? '2' : ide === '1642' ? '3' : 'al menos 1';
+  const cant = ide === '1632' ? '2' : ide === '1642' ? '3' : '1';
 
   const descriptionText = document.createElement('p');
   descriptionText.innerHTML = `Por favor, indicá que propuestas cursarás.<br/>Debés elegir ${cant}.`;
