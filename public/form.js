@@ -8,15 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
               "course_name": "Juegos de escape en educación",
               "start_date": "Inicia el 6 de agosto."
               }, */
-            {
+            /* {
                 "course_code": "RIA-A",
                 "course_name": "Creación de recursos digitales con IA",
                 "start_date": "Inicia el 20 de agosto."
-            },
+            }, */
             {
                 "course_code": "EIA",
                 "course_name": "IA y evaluación educativa",
-                "start_date": "Inicia el 9 de septiembre."
+                "start_date": "Inicia el 11 de noviembre."
             },
             {
                 "course_code": "INF",
