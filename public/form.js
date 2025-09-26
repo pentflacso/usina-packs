@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 "course_name": "IA y evaluación educativa",
                 "start_date": "Inicia el 11 de noviembre."
             },
-            {
+            /* {
                 "course_code": "INF",
                 "course_name": "Infancias y pantallas",
                 "start_date": "Inicia el 27 de septiembre."
-            },
+            }, */
             {
                 "course_code": "MAT",
                 "course_name": "Diseño de materiales didácticos digitales",
