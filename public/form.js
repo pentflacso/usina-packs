@@ -23,11 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 "course_name": "Infancias y pantallas",
                 "start_date": "Inicia el 27 de septiembre."
             }, */
-            {
+            /* {
                 "course_code": "MAT",
                 "course_name": "Diseño de materiales didácticos digitales",
                 "start_date": "Inicia el 7 de octubre."
-            },
+            }, */
             {
                 "course_code": "RIA-O",
                 "course_name": "Creación de recursos educativos con IA",
