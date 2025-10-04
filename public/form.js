@@ -13,11 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 "course_name": "Creación de recursos digitales con IA",
                 "start_date": "Inicia el 20 de agosto."
             }, */
-            {
-                "course_code": "EIA",
-                "course_name": "IA y evaluación educativa",
-                "start_date": "Inicia el 11 de noviembre."
-            },
             /* {
                 "course_code": "INF",
                 "course_name": "Infancias y pantallas",
@@ -47,6 +42,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 "course_code": "LIA-S",
                 "course_name": "Lab de IA y educación (comisión sábados)",
                 "start_date": "Inicia el 8 de noviembre."
+            },
+            {
+                "course_code": "EIA",
+                "course_name": "IA y evaluación educativa",
+                "start_date": "Inicia el 11 de noviembre."
             }
         ]
     };
