@@ -28,11 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 "course_name": "Creación de recursos educativos con IA",
                 "start_date": "Inicia el 15 de octubre."
             }, */
-      {
+      /* {
         course_code: "EXP",
         course_name: "Experiencias sincrónicas de aprendizaje",
         start_date: "Inicia el 18 de octubre.",
-      },
+      }, */
       {
         course_code: "LIA-J",
         course_name: "Lab de IA y educación (comisión jueves)",
