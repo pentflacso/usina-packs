@@ -38,11 +38,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 "course_name": "Experiencias sincrónicas de aprendizaje",
                 "start_date": "Inicia el 18 de octubre."
             },
-            {
+            /* {
                 "course_code": "LIA-J",
                 "course_name": "Lab de IA y educación (comisión jueves)",
                 "start_date": "Inicia el 6 de noviembre."
-            },
+            }, */
             {
                 "course_code": "LIA-S",
                 "course_name": "Lab de IA y educación (comisión sábados)",
