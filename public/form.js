@@ -3,6 +3,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const data = {
     courses: [
+      {
+        course_code: "TRA",
+        course_name: "Introducción a las narrativas transmedia",
+        start_date:
+          "Inicia el sábado 14 de febrero de 10 a 13 (Hora de Argentina)",
+      },
+      {
+        course_code: "IA",
+        course_name: "Introducción a la inteligencia artificial",
+        start_date:
+          "Inicia el sábado 7 de febrero de 15 a 18 (Hora de Argentina)",
+      },
+      {
+        course_code: "BOT",
+        course_name: "Introducción a los chatbots educativos",
+        start_date:
+          "Inicia el jueves 12 de febrero de 18 a 21 (Hora de Argentina)",
+      },
+      {
+        course_code: "REEL",
+        course_name: "Del reel a la producción audiovisual",
+        start_date:
+          "Inicia el viernes 28 de febrero de 18 a 21 (Hora de Argentina)",
+      },
       /* {
               "course_code": "JEE",
               "course_name": "Juegos de escape en educación",
@@ -37,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         course_code: "LIA-J",
         course_name: "Lab de IA y educación (comisión jueves)",
         start_date: "Inicia el 6 de noviembre.",
-      }, */
+      },
       {
         course_code: "LIA-S",
         course_name: "Lab de IA y educación (comisión sábados)",
@@ -47,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
         course_code: "EIA",
         course_name: "IA y evaluación educativa",
         start_date: "Inicia el 11 de noviembre.",
-      },
+      }, */
     ],
   };
 
@@ -106,7 +130,7 @@ function formDescription(ide) {
   formDescription.className = "form-description";
 
   //Segun id de formulario, se define la cantidad de cursos a seleccionar
-  const cant = ide === "1632" ? "2" : ide === "1642" ? "3" : "al menos 1";
+  const cant = ide === "1992" ? "4" : ide === "1982" ? "2" : "al menos 1";
 
   const descriptionText = document.createElement("p");
   descriptionText.innerHTML = `Por favor, indicá que propuestas cursarás.<br/>Debés elegir ${cant}.`;
