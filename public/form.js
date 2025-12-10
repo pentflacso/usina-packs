@@ -4,12 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const data = {
     courses: [
       {
-        course_code: "TRA",
-        course_name: "Introducción a las narrativas transmedia",
-        start_date:
-          "Inicia el sábado 14 de febrero de 10 a 13 (Hora de Argentina)",
-      },
-      {
         course_code: "IA",
         course_name: "Introducción a la inteligencia artificial",
         start_date:
@@ -22,8 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
           "Inicia el jueves 12 de febrero de 18 a 21 (Hora de Argentina)",
       },
       {
+        course_code: "TRA",
+        course_name: "Introducción a las narrativas transmedia",
+        start_date:
+          "Inicia el sábado 14 de febrero de 10 a 13 (Hora de Argentina)",
+      },
+      {
         course_code: "REEL",
-        course_name: "Del reel a la producción audiovisual",
+        course_name: "Introducción a la producción audiovisual",
         start_date:
           "Inicia el viernes 28 de febrero de 18 a 21 (Hora de Argentina)",
       },
