@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const data = {
     courses: [
-      {
+      /* {
         course_code: "IA",
         course_name: "Introducción a la inteligencia artificial",
         start_date:
           "Inicia el sábado 7 de febrero de 15 a 18 (Hora de Argentina)",
-      },
+      }, */
       {
         course_code: "BOT",
         course_name: "Introducción a los chatbots educativos",
