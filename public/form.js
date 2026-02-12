@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
         start_date:
           "Inicia el sábado 7 de febrero de 15 a 18 (Hora de Argentina)",
       }, */
-      {
+      /* {
         course_code: "BOT",
         course_name: "Introducción a los chatbots educativos",
         start_date:
           "Inicia el jueves 12 de febrero de 18 a 21 (Hora de Argentina)",
-      },
+      }, */
       {
         course_code: "TRA",
         course_name: "Introducción a las narrativas transmedia",
