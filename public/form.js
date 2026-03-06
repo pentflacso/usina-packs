@@ -4,74 +4,47 @@ document.addEventListener("DOMContentLoaded", function () {
   const data = {
     courses: [
       {
-        course_code: "IA",
-        course_name: "Introducción a la inteligencia artificial",
+        course_code: "RIA-A",
+        course_name: "Bootcamp creación de recursos educativos digitales con IA",
         start_date:
-          "Inicia el sábado 7 de febrero de 15 a 18 (Hora de Argentina)",
+          "Inicia el miércoles 1 de abril de 19 a 21 hs. (Hora de Argentina)",
       },
       {
-        course_code: "BOT",
-        course_name: "Introducción a los chatbots educativos",
-        start_date:
-          "Inicia el jueves 12 de febrero de 18 a 21 (Hora de Argentina)",
-      },
-      {
-        course_code: "TRA",
-        course_name: "Introducción a las narrativas transmedia",
-        start_date:
-          "Inicia el sábado 14 de febrero de 10 a 13 (Hora de Argentina)",
-      },
-      {
-        course_code: "REEL",
-        course_name: "Introducción a la producción audiovisual",
-        start_date:
-          "Inicia el viernes 28 de febrero de 18 a 21 (Hora de Argentina)",
-      }
-      /* {
-              "course_code": "JEE",
-              "course_name": "Juegos de escape en educación",
-              "start_date": "Inicia el 6 de agosto."
-              }, */
-      /* {
-                "course_code": "RIA-A",
-                "course_name": "Creación de recursos digitales con IA",
-                "start_date": "Inicia el 20 de agosto."
-            }, */
-      /* {
-                "course_code": "INF",
-                "course_name": "Infancias y pantallas",
-                "start_date": "Inicia el 27 de septiembre."
-            }, */
-      /* {
-                "course_code": "MAT",
-                "course_name": "Diseño de materiales didácticos digitales",
-                "start_date": "Inicia el 7 de octubre."
-            }, */
-      /* {
-                "course_code": "RIA-O",
-                "course_name": "Creación de recursos educativos con IA",
-                "start_date": "Inicia el 15 de octubre."
-            }, */
-      /* {
-        course_code: "EXP",
-        course_name: "Experiencias sincrónicas de aprendizaje",
-        start_date: "Inicia el 18 de octubre.",
-      }, */
-      /* {
         course_code: "LIA-J",
         course_name: "Lab de IA y educación (comisión jueves)",
-        start_date: "Inicia el 6 de noviembre.",
+        start_date:
+          "Inicia el jueves 16 de abril de 19 a 21 hs. (Hora de Argentina)",
       },
       {
         course_code: "LIA-S",
         course_name: "Lab de IA y educación (comisión sábados)",
-        start_date: "Inicia el 8 de noviembre.",
+        start_date:
+          "Inicia el sábado 18 de abril de 14.30 a 16.30 hs. (Hora de Argentina)",
       },
       {
-        course_code: "EIA",
-        course_name: "IA y evaluación educativa",
-        start_date: "Inicia el 11 de noviembre.",
-      }, */
+        course_code: "BOT-J",
+        course_name: "Lab de IA y chatbots educativos",
+        start_date:
+          "Inicia el miércoles 14 de mayo de 19 a 21 hs. (Hora de Argentina)",
+      },
+      {
+        course_code: "INF",
+        course_name: "Entre infancias y pantallas",
+        start_date:
+          "Inicia el sábado 13 de junio de 10 a 12 hs. (Hora de Argentina)",
+      },
+      {
+        course_code: "EIA-M",
+        course_name: "Lab IA y evaluación educativa",
+        start_date:
+          "Inicia el martes 9 de junio de 19 a 21 hs. (Hora de Argentina)",
+      },
+      {
+        course_code: "MAT",
+        course_name: "Diseño de materiales didácticos digitales",
+        start_date:
+          "Inicia el martes 9 de junio de 18.30 a 20 hs. (Hora de Argentina)",
+      },
     ],
   };
 
