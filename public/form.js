@@ -3,18 +3,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const data = {
     courses: [
-      /* {
+      {
         course_code: "IA",
         course_name: "Introducción a la inteligencia artificial",
         start_date:
           "Inicia el sábado 7 de febrero de 15 a 18 (Hora de Argentina)",
-      }, */
-      /* {
+      },
+      {
         course_code: "BOT",
         course_name: "Introducción a los chatbots educativos",
         start_date:
           "Inicia el jueves 12 de febrero de 18 a 21 (Hora de Argentina)",
-      }, */
+      },
       {
         course_code: "TRA",
         course_name: "Introducción a las narrativas transmedia",
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         course_name: "Introducción a la producción audiovisual",
         start_date:
           "Inicia el viernes 28 de febrero de 18 a 21 (Hora de Argentina)",
-      },
+      }
       /* {
               "course_code": "JEE",
               "course_name": "Juegos de escape en educación",
@@ -130,7 +130,7 @@ function formDescription(ide) {
   formDescription.className = "form-description";
 
   //Segun id de formulario, se define la cantidad de cursos a seleccionar
-  const cant = ide === "1992" ? "4" : ide === "1982" ? "2" : "al menos 1";
+  const cant = ide === "2182" ? "3" : ide === "2172" ? "2" : "al menos 1";
 
   const descriptionText = document.createElement("p");
   descriptionText.innerHTML = `Por favor, indicá que propuestas cursarás.<br/>Debés elegir ${cant}.`;
