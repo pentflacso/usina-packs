@@ -204,7 +204,7 @@ function onChangeCallback(ide, modalBody) {
 
   if (!codeInput || !confirmButton || !content_code) return;
 
-  const cant = ide === "1992" ? 4 : ide === "1982" ? 2 : 1;
+  const cant = ide === "2182" ? 3 : ide === "2172" ? 2 : 1;
 
   const selectedCheckboxes = Array.from(
     modalBody.querySelectorAll(
