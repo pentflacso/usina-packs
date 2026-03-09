@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       {
         course_code: "EIA-M",
-        course_name: "Lab IA y evaluación educativa",
+        course_name: "Lab de IA y evaluación educativa",
         start_date:
           "Inicia el martes 9 de junio de 19 a 21 hs. (Hora de Argentina)",
       },
