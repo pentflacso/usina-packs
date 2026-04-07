@@ -3,12 +3,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const data = {
     courses: [
-      {
+      /* {
         course_code: "RIA-A",
         course_name: "Bootcamp creación de recursos educativos digitales con IA",
         start_date:
           "Inicia el miércoles 1 de abril de 19 a 21 hs. (Hora de Argentina)",
-      },
+      }, */
       {
         course_code: "LIA-J",
         course_name: "Lab de IA y educación (comisión jueves)",
