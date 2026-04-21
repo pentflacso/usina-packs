@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
         start_date:
           "Inicia el jueves 23 de abril de 19 a 21 hs. (Hora de Argentina)",
       },
-      {
+      /* {
         course_code: "LIA-S",
         course_name: "Lab de IA y educación (comisión sábados)",
         start_date:
           "Inicia el sábado 18 de abril de 14.30 a 16.30 hs. (Hora de Argentina)",
-      },
+      }, */
       {
         course_code: "BOT-J",
         course_name: "Lab de IA y chatbots educativos",
