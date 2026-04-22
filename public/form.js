@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
         start_date:
           "Inicia el miércoles 1 de abril de 19 a 21 hs. (Hora de Argentina)",
       }, */
-      {
+      /* {
         course_code: "LIA-J",
         course_name: "Lab de IA y educación (comisión jueves)",
         start_date:
           "Inicia el jueves 23 de abril de 19 a 21 hs. (Hora de Argentina)",
-      },
+      }, */
       /* {
         course_code: "LIA-S",
         course_name: "Lab de IA y educación (comisión sábados)",
